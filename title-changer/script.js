@@ -1,6 +1,6 @@
 let titleInput = document.querySelector("#title-input");
 
-titleInput.addEventListener("click", () => {
+titleInput.addEventListener("input", () => {
 	document.title = titleInput.value;
 });
 
